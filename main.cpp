@@ -20,7 +20,7 @@ bool testTree(const string &nameOfTest, const ArithNode *ptr, const string &expe
 void printTree(ArithNode *ptr);
 bool passedAllTests = true;
 
-int main() {
+int main(int argc, char * const argv[]) {
 
 	// Convert and evaluate infix expression
 	{
