@@ -1,4 +1,4 @@
-#pragma once
+
 #include "ExpressionConverter.h"
 #include <stack>
 #include <queue>
