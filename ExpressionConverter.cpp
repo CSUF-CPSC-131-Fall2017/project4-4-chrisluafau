@@ -59,7 +59,7 @@ string Infix2RPN(string infix)
 			}
 			else
 			{
-				myArray[i].stat = stoi(temp);
+				myArray[i].stat = stol(temp);
 				myArray[i].isOperand = true;
 			}
 		}
@@ -230,7 +230,7 @@ ArithNode *RPN2ExpressionTree(string rpn)
 			}
 			else
 			{
-				myArray[i].stat = stoi(token);
+				myArray[i].stat = stol(token);
 				myArray[i].isOperand = true;
 			}
 		}
@@ -319,7 +319,7 @@ int EvaluateRPN(string expr)
 			}
 			else
 			{
-				myArray[i].stat = stoi(token);
+				myArray[i].stat = stol(token);
 				myArray[i].isOperand = true;
 			}
 		}
