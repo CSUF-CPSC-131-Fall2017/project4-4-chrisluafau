@@ -78,7 +78,7 @@ def build():
 
 def test():
     return (build() and
-            command(['./Project1exe']))
+            command(['./Project4exe']))
 
 def team():
     contribs = find_contributors()
